@@ -1,0 +1,54 @@
+
+.navBar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+    .herpo{
+
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+      
+        width: 700px;
+        padding-right: 20px;
+        font-size: 40px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    .menu{
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        height: 110px;
+        
+        width: 450px;
+       
+       
+
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-start;
+
+        .departamentos{
+            order: 0;
+            flex: 0 1 auto;
+            align-self: auto;
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+  
+}
